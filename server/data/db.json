@@ -1,0 +1,280 @@
+{
+  "attractions": [
+    {
+      "id": "a1",
+      "name": "Old Town Heritage Walk",
+      "location": "Jaipur, India",
+      "description": "Guided walk through historic forts, palaces, and bustling bazaars.",
+      "category": "Culture",
+      "duration": "3h",
+      "price": 25,
+      "rating": 4.7,
+      "tags": ["history", "architecture", "food"],
+      "image": "https://images.unsplash.com/photo-1581778459322-3c3b6c7a8ab1?auto=format&fit=crop&w=900&q=80",
+      "guideId": "g1",
+      "availability": ["2025-12-20", "2025-12-21", "2025-12-22"]
+    },
+    {
+      "id": "a2", 
+      "name": "Sunset Desert Safari",
+      "location": "Dubai, UAE",
+      "description": "Dune bashing, camel rides, and dinner under the stars.",
+      "category": "Adventure",
+      "duration": "5h",
+      "price": 80,
+      "rating": 4.8,
+      "tags": ["adventure", "desert", "family"],
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+      "guideId": "g2",
+      "availability": ["2025-12-19", "2025-12-20", "2025-12-23"]
+    },
+    {
+      "id": "a3",
+      "name": "Island Hopping Cruise",
+      "location": "Phuket, Thailand",
+      "description": "Day trip to Phi Phi and surrounding islands with snorkeling stops.",
+      "category": "Relaxation",
+      "duration": "8h",
+      "price": 120,
+      "rating": 4.6,
+      "tags": ["beach", "snorkeling", "photography"],
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+      "guideId": "g3",
+      "availability": ["2025-12-21", "2025-12-24", "2025-12-26"]
+    },
+    {
+      "id": "a4",
+      "name": "Mountain Sunrise Trek",
+      "location": "Pokhara, Nepal",
+      "description": "Early morning trek to Sarangkot for panoramic Himalayan sunrise.",
+      "category": "Hiking",
+      "duration": "6h",
+      "price": 45,
+      "rating": 4.9,
+      "tags": ["hiking", "sunrise", "nature"],
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80",
+      "guideId": "g4",
+      "availability": ["2025-12-20", "2025-12-23", "2025-12-25"]
+    },
+    {
+      "id": "a5",
+      "name": "Northern Lights Chase",
+      "location": "Tromsø, Norway",
+      "description": "Aurora hunt with hot drinks, tripods, and photography coaching.",
+      "category": "Adventure",
+      "duration": "5h",
+      "price": 150,
+      "rating": 4.8,
+      "tags": ["aurora", "night", "photography"],
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+      "guideId": "g5",
+      "availability": ["2025-12-21", "2025-12-22", "2025-12-24"]
+    },
+    {
+      "id": "a6",
+      "name": "Santorini Sunset Sail",
+      "location": "Santorini, Greece",
+      "description": "Catamaran cruise with caldera views, swim stops, and onboard dinner.",
+      "category": "Relaxation",
+      "duration": "4h",
+      "price": 170,
+      "rating": 4.9,
+      "tags": ["sunset", "sailing", "islands"],
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+      "guideId": "g6",
+      "availability": ["2025-12-20", "2025-12-22", "2025-12-26"]
+    },
+    {
+      "id": "a7",
+      "name": "Kyoto Tea & Temples",
+      "location": "Kyoto, Japan",
+      "description": "Guided stroll through bamboo groves, teahouses, and heritage shrines.",
+      "category": "Culture",
+      "duration": "4h",
+      "price": 110,
+      "rating": 4.7,
+      "tags": ["culture", "tea", "shrines"],
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80",
+      "guideId": "g7",
+      "availability": ["2025-12-21", "2025-12-23", "2025-12-24"]
+    },
+    {
+      "id": "a8",
+      "name": "Amazon River Kayak",
+      "location": "Manaus, Brazil",
+      "description": "Paddle through calm tributaries with wildlife spotting and picnic lunch.",
+      "category": "Adventure",
+      "duration": "6h",
+      "price": 130,
+      "rating": 4.8,
+      "tags": ["wildlife", "kayak", "rainforest"],
+      "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=900&q=80",
+      "guideId": "g8",
+      "availability": ["2025-12-20", "2025-12-22", "2025-12-25"]
+    }
+  ],
+  "guides": [
+    {
+      "id": "g1",
+      "name": "Aisha Khan",
+      "languages": ["English", "Hindi"],
+      "rating": 4.8,
+      "bio": "History graduate who loves telling stories behind every monument.",
+      "expertise": ["Heritage", "Food"],
+      "availability": [
+        { "date": "2025-12-20", "slots": 4 },
+        { "date": "2025-12-21", "slots": 3 },
+        { "date": "2025-12-22", "slots": 2 }
+      ]
+    },
+    {
+      "id": "g2",
+      "name": "Omar Farooq",
+      "languages": ["English", "Arabic"],
+      "rating": 4.6,
+      "bio": "Adventure enthusiast specializing in desert experiences.",
+      "expertise": ["Adventure", "Families"],
+      "availability": [
+        { "date": "2025-12-19", "slots": 5 },
+        { "date": "2025-12-20", "slots": 4 },
+        { "date": "2025-12-23", "slots": 4 }
+      ]
+    },
+    {
+      "id": "g3",
+      "name": "Lena Nguyen",
+      "languages": ["English", "Thai"],
+      "rating": 4.7,
+      "bio": "Marine guide with a passion for reefs and island culture.",
+      "expertise": ["Islands", "Water sports"],
+      "availability": [
+        { "date": "2025-12-21", "slots": 6 },
+        { "date": "2025-12-24", "slots": 6 },
+        { "date": "2025-12-26", "slots": 5 }
+      ]
+    },
+    {
+      "id": "g4",
+      "name": "Kiran Gurung",
+      "languages": ["English", "Nepali"],
+      "rating": 4.9,
+      "bio": "Mountain guide ensuring safe and memorable Himalayan treks.",
+      "expertise": ["Trekking", "Photography"],
+      "availability": [
+        { "date": "2025-12-20", "slots": 4 },
+        { "date": "2025-12-23", "slots": 3 },
+        { "date": "2025-12-25", "slots": 4 }
+      ]
+    },
+    {
+      "id": "g5",
+      "name": "Ingrid Solberg",
+      "languages": ["English", "Norwegian"],
+      "rating": 4.7,
+      "bio": "Aurora chaser with a knack for finding clear skies.",
+      "expertise": ["Adventure", "Photography"],
+      "availability": [
+        { "date": "2025-12-21", "slots": 6 },
+        { "date": "2025-12-22", "slots": 6 },
+        { "date": "2025-12-24", "slots": 5 }
+      ]
+    },
+    {
+      "id": "g6",
+      "name": "Eleni Papadopoulos",
+      "languages": ["English", "Greek"],
+      "rating": 4.8,
+      "bio": "Island skipper hosting relaxed caldera cruises.",
+      "expertise": ["Islands", "Food"],
+      "availability": [
+        { "date": "2025-12-20", "slots": 5 },
+        { "date": "2025-12-22", "slots": 5 },
+        { "date": "2025-12-26", "slots": 4 }
+      ]
+    },
+    {
+      "id": "g7",
+      "name": "Haruto Sato",
+      "languages": ["English", "Japanese"],
+      "rating": 4.6,
+      "bio": "Kyoto local sharing tea rituals and hidden alleys.",
+      "expertise": ["Culture", "Food"],
+      "availability": [
+        { "date": "2025-12-21", "slots": 4 },
+        { "date": "2025-12-23", "slots": 4 },
+        { "date": "2025-12-24", "slots": 4 }
+      ]
+    },
+    {
+      "id": "g8",
+      "name": "Camila Ribeiro",
+      "languages": ["English", "Portuguese"],
+      "rating": 4.8,
+      "bio": "Rainforest guide focused on river ecology and safety.",
+      "expertise": ["Adventure", "Wildlife"],
+      "availability": [
+        { "date": "2025-12-20", "slots": 6 },
+        { "date": "2025-12-22", "slots": 5 },
+        { "date": "2025-12-25", "slots": 5 }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b1",
+      "attractionId": "a1",
+      "guideId": "g1",
+      "customerName": "Rohan Gupta",
+      "email": "rohan@example.com",
+      "date": "2025-12-22",
+      "partySize": 2,
+      "status": "confirmed"
+    },
+    {
+      "id": "b2",
+      "attractionId": "a2",
+      "guideId": "g2",
+      "customerName": "Sara Ahmed",
+      "email": "sara@example.com",
+      "date": "2025-12-20",
+      "partySize": 3,
+      "status": "pending"
+    }
+  ],
+  "itineraries": [
+    {
+      "id": "i1",
+      "travelerName": "Samir Mehta",
+      "title": "Jaipur Heritage Weekend",
+      "startDate": "2025-12-20",
+      "endDate": "2025-12-22",
+      "items": [
+        { "day": "Day 1", "activities": ["Old Town Heritage Walk", "Street food tasting"] },
+        { "day": "Day 2", "activities": ["Amber Fort visit", "Local crafts market"] },
+        { "day": "Day 3", "activities": ["City Palace", "Evening cultural show"] }
+      ],
+      "notes": "Prefers vegetarian food stops."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "targetType": "attraction",
+      "targetId": "a1",
+      "rating": 5,
+      "comment": "Loved the stories and hidden alleyways.",
+      "reviewer": "Anita Rao",
+      "date": "2025-12-10"
+    },
+    {
+      "id": "r2",
+      "targetType": "guide",
+      "targetId": "g2",
+      "rating": 4,
+      "comment": "Super friendly and organized desert camp.",
+      "reviewer": "Lee Wong",
+      "date": "2025-12-11"
+    }
+  ]
+}
+
